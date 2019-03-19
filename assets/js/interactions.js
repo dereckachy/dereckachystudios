@@ -32,7 +32,7 @@ function toggleMenu() {
 
 }
 
-if (document.location.href==="https://dereckachy.github.io/dereckachystudios") {
+if (document.location.pathname==="/contact/") {
   var heroTextSvg = document.querySelector('#hero-text-svg');
 
   if (matchMedia) {
