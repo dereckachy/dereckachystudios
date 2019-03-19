@@ -33,20 +33,6 @@ function toggleMenu() {
 }
 
 if (document.location.pathname==="/contact/") {
-  var heroTextSvg = document.querySelector('#hero-text-svg');
-
-  if (matchMedia) {
-    var mq = window.matchMedia("(max-width: 480px)")
-    mq.addListener(widthChange)
-    widthChange(mq)
-  }
-
-  function widthChange() {
-  }
-
-}
-
-if (document.location.href==="https://dereckachy.github.io/dereckachystudios/contact/") {
 
   var inputGroup = document.getElementsByClassName('input-group');
   var textBox = document.querySelector('#text-area');
